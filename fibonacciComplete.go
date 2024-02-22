@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 var (
-	termos = 50
+	terms int
 )
 
 func fibonacci(n int) int {
@@ -15,7 +15,9 @@ func fibonacci(n int) int {
 }
 
 func main() {
-	for i := 0; i < termos; i++ {
+	fmt.Print("Number of terms: ")
+	fmt.Scan(&terms)
+	for i := 0; i < terms; i++ {
 		fmt.Printf("F%d: %d\n", i+1, fibonacci(i))
 	}
 }
