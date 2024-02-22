@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+var terms int
+
 func fibonacciIterativo(n int) int {
 	if n <= 1 {
 		return n
@@ -20,6 +22,7 @@ func fibonacciIterativo(n int) int {
 }
 
 func main() {
-	termos := 500
-	fmt.Printf("F%d: %d\n", termos, fibonacciIterativo(termos))
+	fmt.Print("Number of terms: ")
+	fmt.Scan(&terms)
+	fmt.Printf("F%d: %d\n", terms, fibonacciIterativo(terms))
 }
