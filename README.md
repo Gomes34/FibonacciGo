@@ -1,5 +1,16 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0083FF&height=180&section=header" />
 
+##FibonacciGo <br>
+
+Duas sequências do Número de Fibonacci
+
+🔵 Na primeira sequência, a sequência imprime na tela os valores já calculados,
+    mas se forem feitos mais de 40 cálculos, o programa estará sujeito a lentidão.
+
+🔵 Na segunda sequência nem todos os valores são impressos na tela, apenas o valor enviado
+    pelo usuário. Mas é muito mais otimizado, permitindo inserir valores infinitos.
+
+
 ## FibonacciGo <br>
 
 Two-Way Fibonacci Sequence in Golang
