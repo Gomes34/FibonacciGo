@@ -1,6 +1,6 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0083FF&height=180&section=header" />
 
-##FibonacciGo <br>
+## FibonacciGo <br>
 
 Duas sequências do Número de Fibonacci
 
